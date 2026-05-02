@@ -8,25 +8,9 @@ It includes a scalable frontend, highly available backend, and managed database,
 
 
 
-Architecture Diagram
+##  Architecture Diagram
 
-
-            Users
-              │
-              ▼
-     CloudFront (CDN)
-              │
-              ▼
-        S3 (Frontend)
-              │
-              ▼
-   Application Load Balancer
-              │
-              ▼
-     Auto Scaling Group (EC2)
-              │
-              ▼
-         RDS (MySQL)
+![Architecture](architecture.png)
 
 
 
